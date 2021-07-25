@@ -51,7 +51,7 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-metrics.git", from: "2.0.0"),
 
         // WebSocket client library built on SwiftNIO
-        .package(url: "https://github.com/hishnash/websocket-kit.git", .branch("ChunkDataAndTextFramesBasedOnMaxFrameSize")),
+        .package(url: "https://github.com/hishnash/websocket-kit.git", .branch("NIOT_CHUNK_LARGEFRAME")),
         
         // MultipartKit, Multipart encoding and decoding
         .package(url: "https://github.com/vapor/multipart-kit.git", from: "4.2.1"),
